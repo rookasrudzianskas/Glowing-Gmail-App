@@ -26,6 +26,7 @@ const Header = () => {
 
             <SearchWrapper>
                 <SearchBarWrapper>
+                    {/*<SearchIconWrapper />*/}
                     <SearchIcon />
                     <input type="text" placeholder="Search Gmail"/>
                     <ExpandMoreIcon />
@@ -58,6 +59,11 @@ const LogoWrapper = styled.div`
     grid-template-columns: 25% auto;
     
 `
+
+// const SearchIconWrapper = styled(SearchIcon)`
+//     color: #5f6368;
+// `
+
 const Menu = styled.div`
     display: grid;
     place-items: center;
@@ -78,6 +84,10 @@ const SearchBarWrapper = styled.div`
     place-items: center;height: 45px;
     border-radius: 6px;
     
+    .MuiSvgIcon-root {
+        color: #5f6368;
+    }
+    
     input {
         width: 100%;
         height: 30px;
@@ -90,4 +100,7 @@ const SearchBarWrapper = styled.div`
         }
       }
 `
-const IconWrapper = styled.div``
+const IconWrapper = styled.div`
+    display: grid;
+    grid-template-columns: repeat(4, auto)
+`
