@@ -11,6 +11,9 @@ const Sidebar = () => {
             </ComposeWrapper>
 
             <SideButtonsWrapper>
+                {
+
+                }
             {/*    Buttons*/}
             </SideButtonsWrapper>
 
