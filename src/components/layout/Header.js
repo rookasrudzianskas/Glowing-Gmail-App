@@ -77,5 +77,17 @@ const SearchBarWrapper = styled.div`
     grid-template-columns: 10% auto 7%;
     place-items: center;height: 45px;
     border-radius: 6px;
+    
+    input {
+        width: 100%;
+        height: 30px;
+        background: none;
+        border: none;
+        font-size: 18px;
+        
+        :focus {
+            outline: none;
+        }
+      }
 `
 const IconWrapper = styled.div``
