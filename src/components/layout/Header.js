@@ -101,6 +101,11 @@ const SearchBarWrapper = styled.div`
       }
 `
 const IconWrapper = styled.div`
+    margin-left: 8px;
     display: grid;
-    grid-template-columns: repeat(4, auto)
+    grid-template-columns: repeat(4, auto);
+    
+    .MuiSvgIcon-root {
+                color: #5f6368;
+        }        
 `
