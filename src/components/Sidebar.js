@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import Compose from "./buttons/Compose";
+import { sidebarButtonItems } from "./data/SideBarButtonItems";
 
 const Sidebar = () => {
     return (
