@@ -15,10 +15,10 @@ const Header = () => {
     return (
         <Wrapper>
             <LogoWrapper>
-                <div>
+                <Menu>
                     <MenuIcon />
                 {/*    menu icon*/}
-                </div>
+                </Menu>
                 <Logo>
                 <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r2.png" alt=""/>
                 </Logo>
@@ -57,6 +57,10 @@ const LogoWrapper = styled.div`
     display: grid;
     grid-template-columns: 25% auto;
     
+`
+const Menu = styled.div`
+    display: grid;
+    place-items: center;
 `
 
 const Logo = styled.div`
