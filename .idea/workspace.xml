@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="221b1feb-b13e-4889-aae7-4f61a556f8cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/EmailsView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideIcons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/buttons/Compose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/buttons/Compose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/Compose.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620875376530</updated>
       <workItem from="1620875379369" duration="8000" />
-      <workItem from="1620875411450" duration="5107000" />
+      <workItem from="1620875411450" duration="5260000" />
     </task>
     <servers />
   </component>

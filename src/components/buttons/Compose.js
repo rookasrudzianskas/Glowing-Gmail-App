@@ -13,4 +13,11 @@ const Compose = () => {
 
 export default Compose;
 
-const Wrapper = styled.div``
+const Wrapper = styled.div`
+    display: grid;
+    grid-template-columns: 35% auto;
+    width: auto;
+    background-color: orange;
+    align-items: center;
+    padding: 6px 32px 6px 8px;
+`
