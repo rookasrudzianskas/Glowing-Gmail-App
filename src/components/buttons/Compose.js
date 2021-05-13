@@ -20,4 +20,6 @@ const Wrapper = styled.div`
     background-color: orange;
     align-items: center;
     padding: 6px 32px 6px 8px;
+    border-radius: 50px;
+    box-shadow:  0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
 `
