@@ -74,6 +74,8 @@ const SearchBarWrapper = styled.div`
     width: 100%;
     max-width: 750px;
     display: grid;
-    grid-template-columns: 10% auto 7%
+    grid-template-columns: 10% auto 7%;
+    place-items: center;height: 45px;
+    border-radius: 6px;
 `
 const IconWrapper = styled.div``
