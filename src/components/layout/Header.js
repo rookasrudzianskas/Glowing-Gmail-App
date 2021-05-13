@@ -72,6 +72,7 @@ const SearchWrapper = styled.div``
 const SearchBarWrapper = styled.div`
     background-color: #f1f3f4;
     width: 100%;
+    max-width: 750px;
     display: grid;
     grid-template-columns: 10% auto 7%
 `
